@@ -31,10 +31,6 @@
     "react-native": "*"
   },
   "rnpm": {
-    "commands": {
-      "prelink": "node_modules/react-native-oauth/bin/prepare.sh",
-      "postlink": "node_modules/react-native-oauth/bin/cocoapods.sh"
-    },
     "ios": {
       "project": "ios/OAuthManager.xcodeproj"
     },
